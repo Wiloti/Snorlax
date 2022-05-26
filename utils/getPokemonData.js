@@ -16,6 +16,9 @@ const getPokemonData = async (lan, pokemonName, message) => {
       response2.data.color.name = "dark_orange";
     else if (response2.data.color.name === "pink")
       response2.data.color.name = "luminous_vivid_pink";
+    else if (response2.data.color.name === "gray")
+      response2.data.color.name = "dark_gray";
+
     if (response2.data.generation.name === "generation-i")
       response2.data.generation.name = "Generation I";
     else if (response2.data.generation.name === "generation-ii")
