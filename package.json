@@ -1,0 +1,31 @@
+{
+  "name": "snorlax",
+  "version": "1.0.0",
+  "description": "Bot discord around pokemon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wiloti/Snorlax.git"
+  },
+  "keywords": [
+    "Bot",
+    "Pokemon"
+  ],
+  "author": "Kahloyx / Wiloti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wiloti/Snorlax/issues"
+  },
+  "homepage": "https://github.com/Wiloti/Snorlax#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^13.7.0",
+    "discordjs-button-pagination": "^1.0.7",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "pokemon": "^2.3.3"
+  }
+}
