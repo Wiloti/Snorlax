@@ -2,6 +2,7 @@ const pokedex = require("pokemon");
 
 const languages = ["de", "fr", "en", "ja"];
 
+// function which returns the pokemon name in the language submitted
 const pokemonSearch = (pokemonName, message) => {
   const pokemon =
     pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1).toLowerCase();

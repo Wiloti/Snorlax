@@ -1,7 +1,7 @@
 const axios = require("axios");
 const { pokemonSearch } = require("./pokemonSearch");
 
-// create a function which will return the data of the pokemon from the api and return it in a promise
+// Function getPokemonData receives a pokemon name transform it with PokemonSearch and get the data from the PokeApi and return it
 const getPokemonData = async (lan, pokemonName, message) => {
   try {
     const id = pokemonSearch(pokemonName, message);
